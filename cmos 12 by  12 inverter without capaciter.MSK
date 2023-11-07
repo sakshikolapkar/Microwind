@@ -1,0 +1,30 @@
+VERSION 19-10-2023 13:09:47
+FIG #C:\Users\Admin\Desktop\Tejas\cmos iverte 12 by12r without capaciter.MSK
+BB(-24,52,0,90)
+SIMU #2.00
+REC(-24,66,24,24,NW)
+REC(-11,72,5,12,DP)
+REC(-18,72,5,12,DP)
+REC(-11,55,5,4,DN)
+REC(-18,55,5,4,DN)
+REC(-17,73,2,2,CO)
+REC(-9,73,2,2,CO)
+REC(-9,56,2,2,CO)
+REC(-17,56,2,2,CO)
+REC(-13,52,2,35,PO)
+REC(-10,55,4,21,ME)
+REC(-18,72,4,4,ME)
+REC(-18,55,4,4,ME)
+REC(-13,72,2,12,DP)
+REC(-13,55,2,4,DN)
+TITLE -16 74  #Vdd
+$1 1000 0 
+TITLE -12 53  #vin
+$c 1000 0 0.0900 0.1000 0.1900 0.2000 
+TITLE -8 64  #vout
+$v 1000 0 
+TITLE -3 88  #Vdd
+$1 1000 0 
+TITLE -16 57  #Vss
+$0 1000 0 
+FFIG C:\Users\Admin\Desktop\Tejas\cmos iverte 12 by12r without capaciter.MSK

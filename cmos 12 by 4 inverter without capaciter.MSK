@@ -1,0 +1,30 @@
+VERSION 19-10-2023 13:00:18
+FIG #C:\Users\Admin\Desktop\Tejas\cmos iverter without capaciter.MSK
+BB(-19,55,5,85)
+SIMU #2.00
+REC(-19,69,24,16,NW)
+REC(-6,75,5,4,DP)
+REC(-13,75,5,4,DP)
+REC(-6,58,5,4,DN)
+REC(-13,58,5,4,DN)
+REC(-4,76,2,2,CO)
+REC(-12,59,2,2,CO)
+REC(-4,59,2,2,CO)
+REC(-12,76,2,2,CO)
+REC(-8,55,2,27,PO)
+REC(-13,75,4,4,ME)
+REC(-5,58,4,21,ME)
+REC(-13,58,4,4,ME)
+REC(-8,75,2,4,DP)
+REC(-8,58,2,4,DN)
+TITLE -11 77  #Vdd
+$1 1000 0 
+TITLE -11 60  #Vss
+$0 1000 0 
+TITLE -7 56  #vin
+$c 1000 0 0.0900 0.1000 0.1900 0.2000 
+TITLE 3 83  #Vdd
+$1 1000 0 
+TITLE -2 67  #Vout
+$v 1000 0 
+FFIG C:\Users\Admin\Desktop\Tejas\cmos iverter without capaciter.MSK
